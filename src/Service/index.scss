@@ -1,0 +1,24 @@
+.service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 12px;
+  transition: color .15s ease-out;
+  cursor: pointer;
+
+  &:hover {
+    color: #c00;
+  }
+
+  &:hover > .icon {
+    transform: translate3d(0,-4px,0);
+  }
+}
+
+.icon {
+  width: 44px;
+  height: 44px;
+  margin-bottom: 2px;
+  transition: transform ease-out .15s
+}
