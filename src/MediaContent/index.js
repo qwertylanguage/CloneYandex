@@ -1,8 +1,9 @@
 import './index.scss'
 
-export const MediaContent = () => {
+export const MediaContent = (props) => {
     return (
-        <div className="news">
+        <div className="wrapper">
+            {props.children}
         </div>
     )
 }

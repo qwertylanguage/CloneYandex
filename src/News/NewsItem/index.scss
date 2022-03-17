@@ -1,0 +1,29 @@
+.news-item {
+  display: flex;
+  align-items: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 10px;
+  font-size: 14px;
+  margin-top: 4px;
+  cursor: pointer;
+
+  &:hover > .news-item-title {
+    color: #c00;
+  }
+}
+
+.news-item-icon {
+  height: 14px;
+  width: 14px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 16px;
+  margin-left: 4px;
+}
+
+.news-item-title {
+  transition: color .15s ease-out;
+  text-decoration: none;
+  color: black;
+}

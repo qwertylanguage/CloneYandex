@@ -4,7 +4,7 @@ export const Service = (props) => {
     return (
         <div className="service">
             <div
-                className="icon"
+                className="service-icon"
                 style={{backgroundImage: `url(${props.icon})`}}
             />
 

@@ -1,6 +1,7 @@
 import {SearchPanel} from "./SearchPanel"
 import {ServicesPanel} from "./ServicesPanel";
 import {Header} from "./Header";
+import {Content} from "./Content";
 
 const App = () => {
     return (
@@ -18,7 +19,8 @@ const App = () => {
 
             <div style={{width: '918px'}}>
                 <ServicesPanel />
-                <SearchPanel/>
+                <SearchPanel />
+                <Content />
             </div>
         </div>
     )

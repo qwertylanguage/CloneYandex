@@ -11,12 +11,12 @@
     color: #c00;
   }
 
-  &:hover > .icon {
+  &:hover > .service-icon {
     transform: translate3d(0,-4px,0);
   }
 }
 
-.icon {
+.service-icon {
   width: 44px;
   height: 44px;
   margin-bottom: 2px;

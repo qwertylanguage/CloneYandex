@@ -9,11 +9,11 @@ export const SearchPanel = () => {
     }
 
     return (
-        <form className='form'>
-            <div className='input-section'>
+        <form className='search-form'>
+            <div className='search-input-section'>
                 <input
                     value={input}
-                    className='input'
+                    className='search-input'
                     onChange={(event) => setInput(event.target.value)}
                 />
 
@@ -25,7 +25,7 @@ export const SearchPanel = () => {
                 />
             </div>
 
-            <button className="search">
+            <button className="search-button">
                 Найти
             </button>
         </form>
