@@ -1,4 +1,4 @@
-import './index.scss'
+import styles from './index.module.scss'
 import {useState} from "react"
 
 export const SearchPanel = () => {
@@ -9,23 +9,23 @@ export const SearchPanel = () => {
     }
 
     return (
-        <form className='search-form'>
-            <div className='search-input-section'>
+        <form className={styles.form}>
+            <div className={styles.section}>
                 <input
                     value={input}
-                    className='search-input'
+                    className={styles.input}
                     onChange={(event) => setInput(event.target.value)}
                 />
 
                 <button
                     style={{...input.length === 0 ? {opacity: 0} : {}}}
-                    className="clear-form"
+                    className={styles.clearForm}
                     type="button"
                     onClick={resetInput}
                 />
             </div>
 
-            <button className="search-button">
+            <button className={styles.button}>
                 Найти
             </button>
         </form>

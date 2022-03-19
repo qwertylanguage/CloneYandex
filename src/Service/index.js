@@ -1,10 +1,10 @@
-import './index.scss'
+import styles from './index.module.scss';
 
 export const Service = (props) => {
     return (
-        <div className="service">
+        <div className={styles.service}>
             <div
-                className="service-icon"
+                className={styles.icon}
                 style={{backgroundImage: `url(${props.icon})`}}
             />
 

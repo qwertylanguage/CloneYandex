@@ -1,15 +1,15 @@
 import {MediaContent} from "../MediaContent";
-import './index.scss';
+import styles from './index.module.scss';
 import {News} from "../News";
 
 export const Content = () => {
     return(
-        <div className="content">
-            <div className="content-left">
+        <div className={styles.content}>
+            <div>
                 <News />
             </div>
 
-            <div className="content-right">
+            <div>
                 <MediaContent>
                     <p>Right</p>
                 </MediaContent>

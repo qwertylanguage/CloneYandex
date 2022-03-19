@@ -1,4 +1,4 @@
-.search-form {
+.form {
   border: 1px solid #fc0;
   background: #fc0;
   border-radius: 12px;
@@ -7,7 +7,7 @@
   height: 46px;
 }
 
-.search-button {
+.button {
   padding-right: 21px;
   padding-left: 21px;
   border: none;
@@ -25,7 +25,7 @@
   }
 }
 
-.search-input {
+.input {
   width: 100%;
   border: none;
   border-radius: 12px;
@@ -52,7 +52,7 @@
   }
 }
 
-.search-input-section {
+.section {
   width: 100%;
   display: flex;
   background: white;

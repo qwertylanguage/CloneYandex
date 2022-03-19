@@ -1,10 +1,10 @@
-.news-header {
+.header {
   display: flex;
   align-items: center;
   margin-bottom: 8px;
 }
 
-.news-icon {
+.icon {
   background-image: url(https://yastatic.net/s3/home-static/_/H/7/oqWdHWG-rO3xQ8T14PjJ_DUUc.svg);
   width: 24px;
   height: 24px;
@@ -13,7 +13,7 @@
   margin-right: 8px;
 }
 
-.news-button {
+.button {
   border: none;
   opacity: 45%;
   background: none;
@@ -31,7 +31,7 @@
   }
 }
 
-.news-button-active {
+.button-active {
   opacity: 100%;
   transition: color .15s ease-out;
 
@@ -40,7 +40,7 @@
   }
 }
 
-.news-show-all {
+.all {
   border: none;
   padding: 0;
   background-color: white;

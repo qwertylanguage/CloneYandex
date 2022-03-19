@@ -1,4 +1,4 @@
-.news-item {
+.item {
   display: flex;
   align-items: center;
   padding-top: 4px;
@@ -13,7 +13,7 @@
   }
 }
 
-.news-item-icon {
+.icon {
   height: 14px;
   width: 14px;
   background-repeat: no-repeat;
@@ -22,7 +22,7 @@
   margin-left: 4px;
 }
 
-.news-item-title {
+.title {
   transition: color .15s ease-out;
   text-decoration: none;
   color: black;

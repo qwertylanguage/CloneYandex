@@ -1,19 +1,19 @@
-import './index.scss';
+import styles from './index.module.scss';
 import {MediaContent} from "../MediaContent";
 import {NewsItem} from "./NewsItem";
 
 export const News = () => {
     return (
         <MediaContent>
-            <div className="news-header">
-                <div className="news-icon"/>
-                <button className="news-button news-button-active">
+            <div className={styles.header}>
+                <div className={styles.icon}/>
+                <button className={`${styles.button} ${styles.buttonActive}`}>
                     Сейчас в СМИ
                 </button>
-                <button className="news-button">
+                <button className={styles.button}>
                     В Уфе
                 </button>
-                <button className="news-button">
+                <button className={styles.button}>
                     Интересное
                 </button>
             </div>
@@ -24,7 +24,7 @@ export const News = () => {
             <NewsItem title="Является ли Ирука Сэнсэй настоящим героем серии Naruto?" icon="https://avatars.mds.yandex.net/get-ynews-logo/26056/1048-1478692902313-square/logo-square"/>
             <NewsItem title="Лук стал дороже" icon="https://avatars.mds.yandex.net/get-ynews-logo/135513/1002-1544074003449-square/logo-square"/>
 
-            <button className="news-show-all">
+            <button className={styles.all}>
                 Показать ещё
 
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"

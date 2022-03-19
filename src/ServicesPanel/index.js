@@ -1,9 +1,9 @@
 import {Service} from "../Service"
-import "./index.scss"
+import styles from './index.module.scss'
 
 export const ServicesPanel = () => {
     return (
-        <div className="service-panel">
+        <div className={styles.panel}>
             <Service title="Маркет" icon="http://yastatic.net/s3/home/services/block/market_new2.svg" />
             <Service title="Видео" icon="http://yastatic.net/s3/home/services/block/video_new.svg" />
             <Service title="Картинки" icon="http://yastatic.net/s3/home/services/block/images_new.svg" />
