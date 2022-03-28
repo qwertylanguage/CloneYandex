@@ -1,6 +1,12 @@
 .content {
   display: grid;
-  grid-template-columns: 66% auto;
+  grid-template-columns: auto 270px;
   grid-column-gap: 8px;
   margin-top: 16px;
+}
+
+.side {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }

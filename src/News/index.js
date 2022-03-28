@@ -1,21 +1,16 @@
 import styles from './index.module.scss';
 import {MediaContent} from "../MediaContent";
 import {NewsItem} from "./NewsItem";
+import {MediaContentButton} from "../MediaContentButton";
 
 export const News = () => {
     return (
         <MediaContent>
             <div className={styles.header}>
                 <div className={styles.icon}/>
-                <button className={`${styles.button} ${styles.buttonActive}`}>
-                    Сейчас в СМИ
-                </button>
-                <button className={styles.button}>
-                    В Уфе
-                </button>
-                <button className={styles.button}>
-                    Интересное
-                </button>
+                <MediaContentButton title="Сейчас в СМИ" />
+                <MediaContentButton title="В Уфе" />
+                <MediaContentButton title="Интересное" />
             </div>
 
             <NewsItem title="Байден назвал Пукина «смертоносным диктатором и бандитом»" icon="https://avatars.mds.yandex.net/get-ynews-logo/26056/1047-1478692902215-square/logo-square"/>

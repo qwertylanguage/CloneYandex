@@ -33,13 +33,13 @@
   justify-content: center;
   transition: color .15s ease-out;
   color: rgba(0,0,0,.32);
-  background: white;
   font-weight: 700;
   padding: 0 16px 0 0;
   font-size: 12px;
   height: 100%;
   margin: -2px 0 0;
   cursor: pointer;
+  background-color: inherit;
 
   &:hover {
     color: #c00;
@@ -52,7 +52,7 @@
 
 .button {
   transition: opacity .15s ease-out;
-  background: white;
+  background-color: inherit;
   border: none;
   height: 36px;
   width: 36px;

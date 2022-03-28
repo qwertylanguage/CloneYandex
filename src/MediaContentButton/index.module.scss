@@ -1,0 +1,26 @@
+.button {
+  border: none;
+  opacity: 45%;
+  background: none;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin-right: 12px;
+  cursor: pointer;
+  transition: color .15s ease-out;
+
+  &:hover {
+    opacity: 100%;
+    color: #c00;
+  }
+}
+
+.button-active {
+  opacity: 100%;
+  transition: color .15s ease-out;
+
+  &:hover {
+    color: #c00;
+  }
+}

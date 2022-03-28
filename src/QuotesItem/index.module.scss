@@ -1,0 +1,48 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  padding-right: 2px;
+  padding-left: 2px;
+  margin-top: 16px;
+
+  &:last-child {
+    margin-bottom: 16px;
+  }
+
+  &:hover .title {
+    color: #c00;
+  }
+}
+
+.section {
+  font-size: 14px;
+
+  &Left {
+    font-size: 14px;
+    min-width: 80px;
+  }
+}
+
+.title {
+  transition: color .15s ease-out;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  opacity: 45%;
+
+  &Right {
+    opacity: 45%;
+    float: right;
+  }
+}
+
+.chart {
+  width: 92px;
+  height: 32px;
+  background-size: 69px 24px;
+  background-position: right;
+  background-repeat: no-repeat;
+}

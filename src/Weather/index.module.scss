@@ -1,0 +1,46 @@
+.block {
+  display: flex;
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 34px;
+  margin-left: 3px;
+  cursor: pointer;
+  transition: color .15s ease-out;
+  font-weight: 400;
+
+  &:hover {
+    color: #c00;
+  }
+}
+
+.other {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 14px;
+  align-items: center;
+  margin-left: 10px;
+
+  & > div {
+    cursor: pointer;
+    transition: color .15s ease-out;
+
+    &:hover {
+      color: #c00;
+    }
+  }
+}
