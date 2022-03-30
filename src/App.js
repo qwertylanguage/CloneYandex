@@ -2,6 +2,7 @@ import {SearchPanel} from "./SearchPanel"
 import {ServicesPanel} from "./ServicesPanel";
 import {Header} from "./Header";
 import {Content} from "./Content";
+import {SideContent} from "./SideContent";
 
 const App = () => {
     return (
@@ -16,6 +17,7 @@ const App = () => {
             className="App"
         >
             <Header />
+            <SideContent />
 
             <div style={{width: '918px'}}>
                 <ServicesPanel />

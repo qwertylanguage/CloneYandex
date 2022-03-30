@@ -1,0 +1,42 @@
+.button {
+  display: flex;
+  border: none;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, .06);
+  font-size: 14px;
+  padding: 12px 8px;
+  border-radius: 7px;
+  position: relative;
+  font-weight: 600;
+  transition: background .15s ease-out;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, .1);
+  }
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.secondaryButton {
+  display: flex;
+  border: none;
+  width: 100%;
+  align-items: center;
+  font-size: 14px;
+  padding: 8px 4px;
+  transition: color .15s ease-out;
+  background-color: transparent;
+  cursor: pointer;
+
+  &:hover {
+    color: #c00;
+  }
+}
