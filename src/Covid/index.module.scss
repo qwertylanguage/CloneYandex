@@ -1,0 +1,49 @@
+.diagramm {
+  height: 28px;
+  width: 41px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.button {
+  display: flex;
+  border: none;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, .06);
+  font-size: 14px;
+  padding: 8px;
+  border-radius: 7px;
+  font-weight: 600;
+  transition: background .15s ease-out;
+  cursor: pointer;
+  margin-top: 12px;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, .1);
+  }
+}
+
+.value {
+  font-weight: 700;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  margin-right: 4px;
+}

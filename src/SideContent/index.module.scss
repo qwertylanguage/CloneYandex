@@ -3,4 +3,31 @@
   position: absolute;
   top: 6px;
   right: 6px;
+
+  & > div {
+    margin-bottom: 6px;
+  }
+}
+
+.hover {
+  transition: transform ease-out .15s;
+
+  &:hover {
+    transform: translateX(-25px);
+  }
+}
+
+.buttonLink {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  font-size: 14px;
+  padding: 8px 4px;
+  cursor: pointer;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  padding-right: 10px
 }
